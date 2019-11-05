@@ -40,6 +40,7 @@ void ligar(int a, int b, int c, int d, int e, int f, int g){
 
 void loop()
 {
+  //Recebe o código em binário do usuário
   va= digitalRead(10);
   vb= digitalRead(11);
   vc= digitalRead(12);
